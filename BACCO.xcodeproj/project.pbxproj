@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38B54382BFA4074004AE1F7 /* BACCOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54372BFA4074004AE1F7 /* BACCOSApp.swift */; };
+		C38B543C2BFA4076004AE1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38B543B2BFA4076004AE1F7 /* Assets.xcassets */; };
+		C38B543F2BFA4076004AE1F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38B543E2BFA4076004AE1F7 /* Preview Assets.xcassets */; };
+		C38B544B2BFA4114004AE1F7 /* OrganizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B544A2BFA4114004AE1F7 /* OrganizerView.swift */; };
+		C38B544D2BFA4129004AE1F7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B544C2BFA4129004AE1F7 /* WelcomeView.swift */; };
+		C38B544F2BFA4143004AE1F7 /* MindfulnessCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B544E2BFA4143004AE1F7 /* MindfulnessCounter.swift */; };
+		C38B54522BFA41AB004AE1F7 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54512BFA41AB004AE1F7 /* NutritionView.swift */; };
+		C38B54542BFA41BB004AE1F7 /* MentalHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54532BFA41BB004AE1F7 /* MentalHealthView.swift */; };
+		C38B54562BFA41CB004AE1F7 /* PhysicalActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54552BFA41CB004AE1F7 /* PhysicalActivityView.swift */; };
+		C38B54582BFA41DD004AE1F7 /* PastDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54572BFA41DD004AE1F7 /* PastDayView.swift */; };
+		C38B545A2BFA41EA004AE1F7 /* FoodTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54592BFA41EA004AE1F7 /* FoodTrackerView.swift */; };
+		C38B545C2BFA41FF004AE1F7 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B545B2BFA41FF004AE1F7 /* FirstView.swift */; };
+		C38B545E2BFA428D004AE1F7 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B545D2BFA428D004AE1F7 /* NewUserView.swift */; };
+		C38B54602BFA429E004AE1F7 /* SavedDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B545F2BFA429E004AE1F7 /* SavedDataView.swift */; };
+		C38B54622BFA42A9004AE1F7 /* personal_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54612BFA42A9004AE1F7 /* personal_data.swift */; };
+		C38B54642BFA42E7004AE1F7 /* ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54632BFA42E7004AE1F7 /* ranges.swift */; };
+		C38B54662BFA431C004AE1F7 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54652BFA431C004AE1F7 /* Struct.swift */; };
+		C38B54692BFA435E004AE1F7 /* HeartRateViewFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54682BFA435E004AE1F7 /* HeartRateViewFunctions.swift */; };
+		C38B546B2BFA437F004AE1F7 /* WeeklyTrendFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B546A2BFA437F004AE1F7 /* WeeklyTrendFunctions.swift */; };
+		C38B546D2BFA4397004AE1F7 /* WeeklyGoalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B546C2BFA4397004AE1F7 /* WeeklyGoalFunction.swift */; };
+		C38B54712BFA43DE004AE1F7 /* Database_HRV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54702BFA43DE004AE1F7 /* Database_HRV.swift */; };
+		C38B54732BFA43FA004AE1F7 /* ObservableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54722BFA43FA004AE1F7 /* ObservableClass.swift */; };
+		C38B54752BFA441C004AE1F7 /* UserRangeFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54742BFA441C004AE1F7 /* UserRangeFunction.swift */; };
+		C38B54772BFA4441004AE1F7 /* ViewModelFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54762BFA4441004AE1F7 /* ViewModelFunction.swift */; };
+		C38B54792BFA4489004AE1F7 /* ContentFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54782BFA4489004AE1F7 /* ContentFunctions.swift */; };
+		C38B547D2BFA44C0004AE1F7 /* FoodDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B547C2BFA44C0004AE1F7 /* FoodDatabase.swift */; };
+		C38B547F2BFA44CD004AE1F7 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B547E2BFA44CD004AE1F7 /* FoodModel.swift */; };
+		C38B54812BFA4510004AE1F7 /* TotalCounterFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54802BFA4510004AE1F7 /* TotalCounterFunction.swift */; };
+		C38B54832BFA452D004AE1F7 /* FunctionDQI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54822BFA452D004AE1F7 /* FunctionDQI.swift */; };
+		C38B54852BFA454C004AE1F7 /* MacroFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B54842BFA454C004AE1F7 /* MacroFunction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C38B54342BFA4074004AE1F7 /* BACCO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BACCO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38B54372BFA4074004AE1F7 /* BACCOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BACCOSApp.swift; sourceTree = "<group>"; };
+		C38B543B2BFA4076004AE1F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C38B543E2BFA4076004AE1F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C38B544A2BFA4114004AE1F7 /* OrganizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerView.swift; sourceTree = "<group>"; };
+		C38B544C2BFA4129004AE1F7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C38B544E2BFA4143004AE1F7 /* MindfulnessCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulnessCounter.swift; sourceTree = "<group>"; };
+		C38B54512BFA41AB004AE1F7 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		C38B54532BFA41BB004AE1F7 /* MentalHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthView.swift; sourceTree = "<group>"; };
+		C38B54552BFA41CB004AE1F7 /* PhysicalActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalActivityView.swift; sourceTree = "<group>"; };
+		C38B54572BFA41DD004AE1F7 /* PastDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastDayView.swift; sourceTree = "<group>"; };
+		C38B54592BFA41EA004AE1F7 /* FoodTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerView.swift; sourceTree = "<group>"; };
+		C38B545B2BFA41FF004AE1F7 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		C38B545D2BFA428D004AE1F7 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
+		C38B545F2BFA429E004AE1F7 /* SavedDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedDataView.swift; sourceTree = "<group>"; };
+		C38B54612BFA42A9004AE1F7 /* personal_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personal_data.swift; sourceTree = "<group>"; };
+		C38B54632BFA42E7004AE1F7 /* ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ranges.swift; sourceTree = "<group>"; };
+		C38B54652BFA431C004AE1F7 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		C38B54682BFA435E004AE1F7 /* HeartRateViewFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateViewFunctions.swift; sourceTree = "<group>"; };
+		C38B546A2BFA437F004AE1F7 /* WeeklyTrendFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTrendFunctions.swift; sourceTree = "<group>"; };
+		C38B546C2BFA4397004AE1F7 /* WeeklyGoalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalFunction.swift; sourceTree = "<group>"; };
+		C38B54702BFA43DE004AE1F7 /* Database_HRV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database_HRV.swift; sourceTree = "<group>"; };
+		C38B54722BFA43FA004AE1F7 /* ObservableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableClass.swift; sourceTree = "<group>"; };
+		C38B54742BFA441C004AE1F7 /* UserRangeFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRangeFunction.swift; sourceTree = "<group>"; };
+		C38B54762BFA4441004AE1F7 /* ViewModelFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFunction.swift; sourceTree = "<group>"; };
+		C38B54782BFA4489004AE1F7 /* ContentFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFunctions.swift; sourceTree = "<group>"; };
+		C38B547C2BFA44C0004AE1F7 /* FoodDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDatabase.swift; sourceTree = "<group>"; };
+		C38B547E2BFA44CD004AE1F7 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		C38B54802BFA4510004AE1F7 /* TotalCounterFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCounterFunction.swift; sourceTree = "<group>"; };
+		C38B54822BFA452D004AE1F7 /* FunctionDQI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionDQI.swift; sourceTree = "<group>"; };
+		C38B54842BFA454C004AE1F7 /* MacroFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroFunction.swift; sourceTree = "<group>"; };
+		C38B54862BFA4625004AE1F7 /* BACCOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BACCOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38B54312BFA4074004AE1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38B542B2BFA4074004AE1F7 = {
+			isa = PBXGroup;
+			children = (
+				C38B54372BFA4074004AE1F7 /* BACCOSApp.swift */,
+				C38B54362BFA4074004AE1F7 /* BACCOS */,
+				C38B54352BFA4074004AE1F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38B54352BFA4074004AE1F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38B54342BFA4074004AE1F7 /* BACCO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38B54362BFA4074004AE1F7 /* BACCOS */ = {
+			isa = PBXGroup;
+			children = (
+				C38B54862BFA4625004AE1F7 /* BACCOS.entitlements */,
+				C38B54452BFA4090004AE1F7 /* View */,
+				C38B54462BFA40A9004AE1F7 /* User Data Collection */,
+				C38B54472BFA40BA004AE1F7 /* Physical Activity */,
+				C38B54492BFA40CA004AE1F7 /* Mental Health */,
+				C38B54482BFA40C4004AE1F7 /* Nutrition */,
+				C38B543B2BFA4076004AE1F7 /* Assets.xcassets */,
+				C38B543D2BFA4076004AE1F7 /* Preview Content */,
+			);
+			path = BACCOS;
+			sourceTree = "<group>";
+		};
+		C38B543D2BFA4076004AE1F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C38B543E2BFA4076004AE1F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C38B54452BFA4090004AE1F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C38B544A2BFA4114004AE1F7 /* OrganizerView.swift */,
+				C38B544C2BFA4129004AE1F7 /* WelcomeView.swift */,
+				C38B544E2BFA4143004AE1F7 /* MindfulnessCounter.swift */,
+				C38B545B2BFA41FF004AE1F7 /* FirstView.swift */,
+				C38B54512BFA41AB004AE1F7 /* NutritionView.swift */,
+				C38B54532BFA41BB004AE1F7 /* MentalHealthView.swift */,
+				C38B54552BFA41CB004AE1F7 /* PhysicalActivityView.swift */,
+				C38B54572BFA41DD004AE1F7 /* PastDayView.swift */,
+				C38B54592BFA41EA004AE1F7 /* FoodTrackerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C38B54462BFA40A9004AE1F7 /* User Data Collection */ = {
+			isa = PBXGroup;
+			children = (
+				C38B545D2BFA428D004AE1F7 /* NewUserView.swift */,
+				C38B545F2BFA429E004AE1F7 /* SavedDataView.swift */,
+				C38B54612BFA42A9004AE1F7 /* personal_data.swift */,
+				C38B54632BFA42E7004AE1F7 /* ranges.swift */,
+			);
+			path = "User Data Collection";
+			sourceTree = "<group>";
+		};
+		C38B54472BFA40BA004AE1F7 /* Physical Activity */ = {
+			isa = PBXGroup;
+			children = (
+				C38B54502BFA4179004AE1F7 /* Database_PA */,
+				C38B54672BFA433D004AE1F7 /* Functions_PA */,
+			);
+			path = "Physical Activity";
+			sourceTree = "<group>";
+		};
+		C38B54482BFA40C4004AE1F7 /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				C38B547A2BFA449C004AE1F7 /* Database_N */,
+				C38B547B2BFA44A5004AE1F7 /* FoodFunctions_N */,
+			);
+			path = Nutrition;
+			sourceTree = "<group>";
+		};
+		C38B54492BFA40CA004AE1F7 /* Mental Health */ = {
+			isa = PBXGroup;
+			children = (
+				C38B546E2BFA43C0004AE1F7 /* Database_MH */,
+				C38B546F2BFA43CA004AE1F7 /* Functions_MH */,
+			);
+			path = "Mental Health";
+			sourceTree = "<group>";
+		};
+		C38B54502BFA4179004AE1F7 /* Database_PA */ = {
+			isa = PBXGroup;
+			children = (
+				C38B54652BFA431C004AE1F7 /* Struct.swift */,
+			);
+			path = Database_PA;
+			sourceTree = "<group>";
+		};
+		C38B54672BFA433D004AE1F7 /* Functions_PA */ = {
+			isa = PBXGroup;
+			children = (
+				C38B54682BFA435E004AE1F7 /* HeartRateViewFunctions.swift */,
+				C38B546A2BFA437F004AE1F7 /* WeeklyTrendFunctions.swift */,
+				C38B546C2BFA4397004AE1F7 /* WeeklyGoalFunction.swift */,
+			);
+			path = Functions_PA;
+			sourceTree = "<group>";
+		};
+		C38B546E2BFA43C0004AE1F7 /* Database_MH */ = {
+			isa = PBXGroup;
+			children = (
+				C38B54702BFA43DE004AE1F7 /* Database_HRV.swift */,
+				C38B54722BFA43FA004AE1F7 /* ObservableClass.swift */,
+			);
+			path = Database_MH;
+			sourceTree = "<group>";
+		};
+		C38B546F2BFA43CA004AE1F7 /* Functions_MH */ = {
+			isa = PBXGroup;
+			children = (
+				C38B54742BFA441C004AE1F7 /* UserRangeFunction.swift */,
+				C38B54762BFA4441004AE1F7 /* ViewModelFunction.swift */,
+				C38B54782BFA4489004AE1F7 /* ContentFunctions.swift */,
+			);
+			path = Functions_MH;
+			sourceTree = "<group>";
+		};
+		C38B547A2BFA449C004AE1F7 /* Database_N */ = {
+			isa = PBXGroup;
+			children = (
+				C38B547C2BFA44C0004AE1F7 /* FoodDatabase.swift */,
+				C38B547E2BFA44CD004AE1F7 /* FoodModel.swift */,
+			);
+			path = Database_N;
+			sourceTree = "<group>";
+		};
+		C38B547B2BFA44A5004AE1F7 /* FoodFunctions_N */ = {
+			isa = PBXGroup;
+			children = (
+				C38B54802BFA4510004AE1F7 /* TotalCounterFunction.swift */,
+				C38B54822BFA452D004AE1F7 /* FunctionDQI.swift */,
+				C38B54842BFA454C004AE1F7 /* MacroFunction.swift */,
+			);
+			path = FoodFunctions_N;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38B54332BFA4074004AE1F7 /* BACCO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38B54422BFA4076004AE1F7 /* Build configuration list for PBXNativeTarget "BACCO" */;
+			buildPhases = (
+				C38B54302BFA4074004AE1F7 /* Sources */,
+				C38B54312BFA4074004AE1F7 /* Frameworks */,
+				C38B54322BFA4074004AE1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BACCO;
+			productName = BACCOS;
+			productReference = C38B54342BFA4074004AE1F7 /* BACCO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38B542C2BFA4074004AE1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C38B54332BFA4074004AE1F7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C38B542F2BFA4074004AE1F7 /* Build configuration list for PBXProject "BACCO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38B542B2BFA4074004AE1F7;
+			productRefGroup = C38B54352BFA4074004AE1F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38B54332BFA4074004AE1F7 /* BACCO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38B54322BFA4074004AE1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B543F2BFA4076004AE1F7 /* Preview Assets.xcassets in Resources */,
+				C38B543C2BFA4076004AE1F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38B54302BFA4074004AE1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B54712BFA43DE004AE1F7 /* Database_HRV.swift in Sources */,
+				C38B545A2BFA41EA004AE1F7 /* FoodTrackerView.swift in Sources */,
+				C38B54772BFA4441004AE1F7 /* ViewModelFunction.swift in Sources */,
+				C38B54832BFA452D004AE1F7 /* FunctionDQI.swift in Sources */,
+				C38B54622BFA42A9004AE1F7 /* personal_data.swift in Sources */,
+				C38B545E2BFA428D004AE1F7 /* NewUserView.swift in Sources */,
+				C38B546D2BFA4397004AE1F7 /* WeeklyGoalFunction.swift in Sources */,
+				C38B54662BFA431C004AE1F7 /* Struct.swift in Sources */,
+				C38B546B2BFA437F004AE1F7 /* WeeklyTrendFunctions.swift in Sources */,
+				C38B54732BFA43FA004AE1F7 /* ObservableClass.swift in Sources */,
+				C38B54602BFA429E004AE1F7 /* SavedDataView.swift in Sources */,
+				C38B547F2BFA44CD004AE1F7 /* FoodModel.swift in Sources */,
+				C38B547D2BFA44C0004AE1F7 /* FoodDatabase.swift in Sources */,
+				C38B545C2BFA41FF004AE1F7 /* FirstView.swift in Sources */,
+				C38B54562BFA41CB004AE1F7 /* PhysicalActivityView.swift in Sources */,
+				C38B544B2BFA4114004AE1F7 /* OrganizerView.swift in Sources */,
+				C38B54642BFA42E7004AE1F7 /* ranges.swift in Sources */,
+				C38B54792BFA4489004AE1F7 /* ContentFunctions.swift in Sources */,
+				C38B54852BFA454C004AE1F7 /* MacroFunction.swift in Sources */,
+				C38B544D2BFA4129004AE1F7 /* WelcomeView.swift in Sources */,
+				C38B54752BFA441C004AE1F7 /* UserRangeFunction.swift in Sources */,
+				C38B54382BFA4074004AE1F7 /* BACCOSApp.swift in Sources */,
+				C38B54692BFA435E004AE1F7 /* HeartRateViewFunctions.swift in Sources */,
+				C38B544F2BFA4143004AE1F7 /* MindfulnessCounter.swift in Sources */,
+				C38B54582BFA41DD004AE1F7 /* PastDayView.swift in Sources */,
+				C38B54522BFA41AB004AE1F7 /* NutritionView.swift in Sources */,
+				C38B54542BFA41BB004AE1F7 /* MentalHealthView.swift in Sources */,
+				C38B54812BFA4510004AE1F7 /* TotalCounterFunction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C38B54402BFA4076004AE1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C38B54412BFA4076004AE1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38B54432BFA4076004AE1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BACCOS/BACCOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BACCOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 4HJWK88C92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Let Bacco allow to use it";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ale.BACCOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38B54442BFA4076004AE1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BACCOS/BACCOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BACCOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 4HJWK88C92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Let Bacco allow to use it";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ale.BACCOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38B542F2BFA4074004AE1F7 /* Build configuration list for PBXProject "BACCO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B54402BFA4076004AE1F7 /* Debug */,
+				C38B54412BFA4076004AE1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38B54422BFA4076004AE1F7 /* Build configuration list for PBXNativeTarget "BACCO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B54432BFA4076004AE1F7 /* Debug */,
+				C38B54442BFA4076004AE1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38B542C2BFA4074004AE1F7 /* Project object */;
+}
